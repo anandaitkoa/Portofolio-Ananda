@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Home Ananda</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to bottom, #1e5799, #7db9e8);
+      color: white;
+      min-height: 100vh;
+      padding: 100px 20px 40px;
+    }
+
+    header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 50px;
+      z-index: 100;
+    }
+
+    header h1 {
+      font-family: 'Lucida Bright';
+      font-size: 36px;
+      color: #ececec;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #d4af37;
+    }
+
+    .about-section {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 40px;
+      border-radius: 12px;
+      max-width: 950px;
+      margin: 100px auto 0;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+
+    .profile-img {
+      width: 220px;
+      height: 220px;
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      border: 3px solid #ffffff44;
+    }
+
+    .intro-text {
+      max-width: 500px;
+      text-align: left;
+    }
+
+    .intro-text h2 {
+      font-size: 30px;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+
+    .intro-text p {
+      font-size: 18px;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>AadItkoa</h1>
+    <nav>
+      <a href="home.html" target="_blank">Home</a>
+      <a href="aboutme.html" target="_blank">About Me</a>
+      <a href="skills.html" target="_blank">Skills</a>
+      <a href="certificate.html" target="_blank">Certificate</a>
+    </nav>
+  </header>
+
+  <section class="about-section">
+    <img src="ananda20250214_204532_0000.png" alt="Foto Ananda" class="profile-img" />
+    <div class="intro-text">
+      <h2>I am Ananda Istikhomah</h2>
+      <p>Progli Teknik Komputer dan Jaringan SMKN 1 Nglegok.</p>
+      <p>Temukan lebih banyak tentang saya melalui tab di atas.</p>
+    </div>
+  </section>
+</body>
+</html>

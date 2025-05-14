@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Certificate Ananda</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to bottom, #1e5799, #7db9e8);
+      color: white;
+      min-height: 100vh;
+      padding: 100px 20px 40px;
+    }
+
+    header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 50px;
+      z-index: 100;
+    }
+
+    header h1 {
+      font-family: 'Lucida Bright';
+      font-size: 36px;
+      color: #ececec;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #d4af37;
+    }
+
+    .skills-section {
+      margin-top: 80px;
+      text-align: center;
+    }
+
+    .skills-section h2 {
+      font-size: 30px;
+      margin-bottom: 30px;
+    }
+
+    .skills-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+    }
+
+    .skill-card {
+      background: rgba(255, 255, 255, 0.15);
+      border-radius: 12px;
+      padding: 20px;
+      width: 300px; /* Diperbesar agar pas dengan gambar */
+      transition: transform 0.3s;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+
+    .skill-card:hover {
+      transform: scale(1.05);
+    }
+
+    .skill-card img {
+      width: 100%;           /* Gambar isi penuh kotak */
+      height: auto;          /* Otomatis agar proporsi tidak rusak */
+      border-radius: 10px;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+
+    .skill-card p {
+      font-size: 18px;
+      font-weight: bold;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>AadItkoa</h1>
+    <nav>
+      <a href="home.html" target="_blank">Home</a>
+      <a href="aboutme.html" target="_blank">About Me</a>
+      <a href="skills.html" target="_blank">Skills</a>
+      <a href="certificate.html" target="_blank">Certificate</a>
+    </nav>
+  </header>
+
+  <section class="skills-section">
+    <h2>Certificate</h2>
+    <div class="skills-container">
+      <div class="skill-card">
+        <img src="S1.png" alt="Sertifikat 1">
+        <p>Network Fundamental - Aguna Course</p>
+      </div>
+      <div class="skill-card">
+        <img src="S2.png" alt="Sertifikat 2">
+        <p>FCF - Introduction to the Threat Landscape 2.0 Self-paced - Fortinet</p>
+      </div>
+      <div class="skill-card">
+        <img src="S3.png" alt="Sertifikat 3">
+        <p>Java Script - Always Ngoding</p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
